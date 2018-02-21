@@ -1,0 +1,51 @@
+/*
+
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+
+*/
+.greentext {
+  color: green;
+}
+.purpletext {
+  color: purple;
+}
+.redtext {
+  color: red;
+}
+.bluetext{
+  color: blue;
+}
+.pinktext {
+  color: pink;
+}
+#maintitle {
+  text-decoration:
+  underline;
+  color: purple;
+  font-family: 'PT Sans'
+}
+#paragraph {
+  font-family: 'Josefin Sans'
+}
+#aboutme {
+  font-family: 'Josefin Sans'
+}
+#header {
+  font-family: 'Josefin Sans'
+}
+#table {
+  background: yellow;
+  font-family: 'Josefin Sans'
+}
+a {
+color: grey;
+text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: blue
+}
