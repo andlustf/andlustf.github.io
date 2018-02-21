@@ -7,33 +7,34 @@
 */
 .greentext {
   color: green;
+  font-family: 'Josefin Sans'
 }
 .purpletext {
   color: purple;
+  font-family: 'Josefin Sans'
 }
 .redtext {
   color: red;
+  font-family: 'Josefin Sans'
 }
 .bluetext{
   color: blue;
+  font-family: 'Josefin Sans'
 }
 .pinktext {
   color: pink;
+  font-family: 'Josefin Sans'
+}
+#aboutme {
+  color: blue;
+  background: yellow;
+  font-family: 'Josefin Sans'
 }
 #maintitle {
   text-decoration:
   underline;
   color: purple;
   font-family: 'PT Sans'
-}
-#paragraph {
-  font-family: 'Josefin Sans'
-}
-#aboutme {
-  font-family: 'Josefin Sans'
-}
-#header {
-  font-family: 'Josefin Sans'
 }
 #table {
   background: yellow;
