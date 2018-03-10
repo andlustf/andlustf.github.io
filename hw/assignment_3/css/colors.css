@@ -1,0 +1,89 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Pacifico', cursive; */
+
+
+/* BACKGROUNDS */
+.navy-bg { background: #12004A;}
+.gray-bg { background: #4B5A6B;}
+.pink-bg {background: pink; }
+
+/* TEXT COLORS */
+.white-txt { color: white;}
+.navy-txt { color: #12004A;}
+
+/* FONTS */
+.title {font-family: 'Satisfy', cursive;
+font-size: 60px;}
+.txt-dflt {font-family: 'Lato', sans-serif;
+text-align: center;}
+
+/* GALLERY */
+.gallery {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 7px dotted white;
+}
+
+.gallery ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.gallery li {
+  width: 1000px;
+  height: 700px;
+  display: block;
+}
+
+
+.clear {
+  clear: both;
+}
+
+
+main {
+  width: 1500px;
+  border: 10px solid #12004A;
+  margin: auto;
+  background: pink;
+}
+
+/* Navigation Bar*/
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+  overflow: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+/*Links inside navigation*/
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 16px 16px;
+}
+
+img { max-width: 100%}
+
+footer p { padding: 25px; }
+
+.aboutme {
+  padding-right: auto;
+  padding-left: auto;
+  background: pink;
+}
+
+.hello {padding: 10px;}
+
+.profile {background: url("../images/About Me.png") top center no-repeat;
+background-size: auto;
+width: 900px;
+height: 700px;
+margin-left: auto;
+margin-right: auto;
+padding: 90px;}

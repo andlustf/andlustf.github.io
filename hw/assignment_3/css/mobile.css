@@ -1,0 +1,16 @@
+header h1 {
+  text-align: center;
+  padding-top: 25px;
+}
+nav li {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+img {width: 100%}
+
+profile {
+  height: auto;
+}
