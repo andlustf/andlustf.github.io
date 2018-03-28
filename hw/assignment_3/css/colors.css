@@ -33,7 +33,7 @@ text-align: center;}
 }
 
 .gallery li {
-  width: 1000px;
+  width: 100%;
   height: 700px;
   display: block;
 }

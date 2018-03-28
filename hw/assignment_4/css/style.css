@@ -1,2 +1,85 @@
+/**FONTS
+
+font-family: 'Raleway', sans-serif;
+font-family: 'Bangers', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Pacifico', cursive;
+
+**/
+
 #howTo li { display: none; }
 #howTo li.active { display: block; }
+
+h1 {
+  font-family: 'Banders', cursive;
+  font-size: 40px;
+  color: purple;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+li {
+ display: none;
+ }
+li img {
+ max-width: 100%;
+}
+li p {
+ padding: 10px;
+}
+li img {
+}
+li h2 {
+ text-align: center;
+ color: white;
+ background-color: purple;
+ height: 50px;
+ margin: 0;
+ padding-top: 10px;
+ padding-bottom: 0px;
+ font-family: 'Banders', cursive;
+ font-size: 27px;
+ line-height: 150%
+}
+
+button {
+   background-color: purple;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   font-family: 'Lato', sans-serif;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 15px;
+}
+button.previous {
+  background-color: #purple
+}
+
+.getStarted {
+  width: 100%;
+  background-color: purple;
+}
+.active {
+  border: 5px solid purple;
+  display: block;
+}
+.howto, .buttonContainer, .titleContainer {
+  width:600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 0
+}
+.survey {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.survey .yes {background-color:pink; margin: 15px;}
+.survey .no {background-color:blue;  margin: 15px; }
