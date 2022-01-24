@@ -10,6 +10,14 @@ a {
   color: #55459c;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 h3{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
