@@ -12,20 +12,23 @@
 
 /*link unclicked*/
 a:link {
-  text-decoration: none;
   color: rgb(67, 68, 68);
+  text-decoration: none;
+  
 }
 
 /*link visited*/
 a:visited {
-  text-decoration: none;
   color: rgb(67, 68, 68);
+  text-decoration: none;
+  
 }
 
 /*link hover*/
 a:hover {
-  text-decoration: none;
   color: #55459c;
+  text-decoration: none;
+  
 }
 
 h3{
