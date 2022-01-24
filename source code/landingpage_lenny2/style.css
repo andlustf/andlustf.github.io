@@ -1,0 +1,60 @@
+section#window-interaction {
+  background-color: aqua;
+  height: 500px;
+}
+
+section.containers {
+  background-color: deeppink;
+  height: 400px;
+  position: relative;
+}
+.container {
+  background-color: beige;
+  height: 200px;
+  width: 300px;
+  border: 1px solid bisque;
+  /* filter: drop-shadow(13px 10px 14px #000); */
+  box-shadow: 10px 5px 17px #111;
+}
+
+#window-1 {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  z-index: 1;
+}
+
+#window-2 {
+  position: absolute;
+  left: 300px;
+  top: 150px;
+  z-index: 2;
+}
+
+#window-hub {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.window-header {
+  /* this does the layout for the window headers */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.window-hub-item {
+  background-color: cornflowerblue;
+  flex-grow: 1;
+  border: 1px solid black;
+  visibility: hidden;
+}
+
+.header-label {
+  flex-grow: 1;
+  text-align: center;
+}
+.show-window-button {
+  margin-right: 15px;
+}

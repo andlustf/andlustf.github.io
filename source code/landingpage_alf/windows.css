@@ -1,0 +1,206 @@
+/* purple 55459c */
+/* grey f0f0f1 */
+/* dark grey e0e0e0 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgb(67, 68, 68);
+  }
+
+h1{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 30px;
+letter-spacing: 1px;
+color: rgb(67, 68, 68);
+}
+
+h2{
+  margin-top: -25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: rgb(67, 68, 68);
+  }
+
+div.logo{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size:20px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+footer{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size:10PX;
+  text-align: center;
+  letter-spacing: 1px;
+  color: rgb(165, 165, 165);
+  position: sticky;
+  margin-top: 70px;
+  }
+
+
+.hideshow{
+  padding: 5px;
+  position: absolute;
+  left: 1300px;
+  top: 100px;
+  -webkit-animation:spin 10s linear infinite;
+  -moz-animation:spin 10s linear infinite;
+  animation:spin 10s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+section#description{
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+section#window-interaction {
+  /* background-color: aqua; */
+  height: 500px;
+}
+
+section.containers {
+  /* background-color: deeppink; */
+  height: 400px;
+  position: relative;
+}
+.container {
+  background-color: #f0f0f1;
+  height: 300px;
+  width: 400px;
+  border: 1px solid #e0e0e0;
+  /* filter: drop-shadow(13px 10px 14px #000); */
+  box-shadow: 10px 5px 17px rgb(104, 104, 104);
+}
+
+.container-header window-header {
+  border: 1px solid #e0e0e0;
+  
+}
+
+
+.hide-window-button {
+  border: 1px solid #e0e0e0;
+  margin-right: 5px;
+  margin-top: 2px;
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.container-content {
+  margin-top: 15px;
+  font-family: 'Inconsolata', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: darkslategrey;
+}
+
+#window-1 {
+  position: absolute;
+  left: 30px;
+  top: 100px;
+  z-index: 1;
+}
+
+#window-2 {
+  position: absolute;
+  left: 400px;
+  top: 150px;
+  z-index: 2;
+}
+
+#window-3 {
+  position: absolute;
+  left: 600px;
+  top: 50px;
+  z-index: 3;
+}
+
+#window-4 {
+  position: absolute;
+  left: 900px;
+  top: 85px;
+  z-index: 2;
+}
+
+#window-5 {
+  position: absolute;
+  left: 1220px;
+  top: 130px;
+  z-index: 3;
+}
+
+#window-hub {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.window-header {
+  /* this does the layout for the window headers */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.window-hub-item {
+  background-color: #f0f0f1;
+  /* flex-grow: 1; */
+  border: 1px solid rgb(144, 144, 145);
+  /* visibility: hidden; */
+  display: none;
+  width: 20%;
+}
+
+.header-label {
+  flex-grow: 1;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #e0e0e0;
+  color: darkslategrey;
+}
+
+.hide-window-button{
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #e0e0e0;
+}
+
+.show-window-button {
+  margin-top: 5px;
+  margin-right: 5px;
+  height: 10px;
+  width: 10px;
+  background-color: greenyellow;
+  border-radius: 50%;
+  display: inline-block;
+}
